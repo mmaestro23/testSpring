@@ -1,0 +1,7 @@
+package com.test.Repo;
+
+import com.test.Model.Customer;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CustomerRepo extends JpaRepository<Customer, Integer> {
+}
